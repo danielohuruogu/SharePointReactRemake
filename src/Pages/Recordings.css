@@ -1,0 +1,89 @@
+h1 {
+    margin: 0;
+}
+
+.recordingsPage {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0 0 10%;
+    text-align: left;
+    color: white;
+}
+
+.header {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchSection {
+    margin: 5% 0 0 0;
+    max-width: 80%;
+}
+
+.searchFilter {
+    display: flex;
+    padding: 3px 0 3px 0;
+    margin: 3px 0 0 0;
+    align-items: center;
+}
+
+.searchFilter p {
+    font-style: italic;
+    margin: 0 5% 0 0;
+}
+
+.searchFilter div {
+    display: inherit;
+}
+
+.filterOptions {
+    justify-content: space-between;
+    width: 50%;
+}
+
+.filterLabels {
+    justify-content: space-between;
+    width: 80%;
+}
+
+.searchFilter h4 {
+    margin-right: 25px;
+}
+
+.videoLayout {
+    max-width: 80%;
+    margin: 3% 0 3% 0;
+    padding: 0 0 2% 0;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.videoLayout div {
+    height: 150px;
+    aspect-ratio: 16/9;
+}
+
+.videoLayout div div {
+    place-items: center;
+    background-color: rgb(220, 220, 220);
+    color: rgb(180, 180, 180);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 1rem;
+    row-gap: 3rem;
+    place-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
